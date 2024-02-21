@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="lavender">#8180f7</color>
+    <color name="bookaland">#fff0d9</color>
+    <color name="bookaland700">#FABA59</color>
 </resources>
