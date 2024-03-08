@@ -17,7 +17,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="180dp">
 
                 <ImageView
                     android:id="@+id/imageView7"
@@ -41,7 +41,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.255"
-                    tools:srcCompat="@drawable/circle" />
+                    tools:srcCompat="@drawable/logo" />
 
                 <TextView
                     android:id="@+id/textView2"
@@ -105,7 +105,8 @@
                 android:layout_marginEnd="32dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
 
                 <TextView
                     android:id="@+id/textView"
@@ -129,7 +130,19 @@
                     android:textColorHint="#717171"
                     android:inputType="textPassword"
                     android:background="@drawable/background_edittext"/>
+
+                <CheckBox
+                    android:id="@+id/rememberMe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Remember Account"
+                    android:textSize="15dp"
+                    android:gravity="center_horizontal" />
+
             </LinearLayout>
+
+
 
             <LinearLayout
                 android:layout_width="match_parent"
